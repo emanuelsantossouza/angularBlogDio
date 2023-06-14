@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent {
-
+  constructor(private router:Router){}
+  linkClick() {
+    this.router.navigateByUrl('/home')
+  }
 }

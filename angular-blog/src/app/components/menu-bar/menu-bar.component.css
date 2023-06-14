@@ -1,0 +1,7 @@
+*{
+  list-style: none;
+}
+
+.container__menuBar{
+  display: flex;
+}
