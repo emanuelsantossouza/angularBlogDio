@@ -27,6 +27,15 @@
   font-size: .7rem;
 }
 
+.container__menu-rede-sociais>ul>li:hover {
+  opacity: 2;
+}
+
+.container__menu-rede-sociais-bottom {
+  opacity: .6;
+  transition: opacity .9s;
+}
+
 .container__menu-rede-sociais>ul>li>a {
   text-decoration: none;
 }

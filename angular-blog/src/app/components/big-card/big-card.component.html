@@ -1,16 +1,16 @@
 <section class="container__bigCard" (click)="linkClick()">
   <div class="container__img">
-    <img src="https://i.pinimg.com/736x/56/87/2e/56872ea1eb8079bc58afca8d59a27af1.jpg" alt="">
+    <a [routerLink]="['content', Id]">
+      <img src="{{photoCover}}" alt=""></a>
   </div>
 
   <div class="container__title">
-    <h5>January 11, 2023</h5>
+    <a [routerLink]="['content', Id]">
+      <h5>{{cardDate}}</h5>
 
-    <h3>Ekasplarasi design untuk melamar pekerjaan UI Designer</h3>
+      <h3>{{cardTitle}}</h3>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam dolor felis, id cursus ipsum tempus nec. Vivamus
-    odio sapien, congue non nunc non, scelerisque cursus massa. Ut luctus, nisl id finibus facilisis, ante velit vulputate
-    lorem, eget posuere lorem ipsum quis dui. Nunc elementum aliquam viverra. Vestibulum ex nulla, accumsan sit amet risus
-    sit amet, euismod efficitur nunc rutrum.</p>
+      <p>{{cardDescription}}</p>
+    </a>
   </div>
 </section>

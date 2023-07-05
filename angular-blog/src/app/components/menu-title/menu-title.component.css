@@ -1,5 +1,5 @@
 .big-title {
-  margin: 2rem;
+  margin-top: -1rem;
 }
 
 .big-title > h1{
@@ -10,6 +10,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container__menu-title> hr{
-  margin: 1rem 0 1rem 0;
+hr{
+  margin: 1rem;
 }

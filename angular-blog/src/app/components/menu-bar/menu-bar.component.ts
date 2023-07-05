@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent {
+  bottom: string = '';
 
+  isSelecionado() {
+    this.bottom = '';
+    return 'container__menu-rede-sociais-bottom'
+  }
 }

@@ -1,0 +1,32 @@
+.container_content {
+  width: 100%;
+  height: 80vh;
+
+  margin-top: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.content__cover>img {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+  min-width: 50px;
+}
+
+.content__description {
+  margin-top: .9rem;
+}
+
+.content__description>p {
+  color: #afaeae8f;
+  width: 53rem;
+}
+
+.voltar {
+  margin-top: 1rem;
+}

@@ -20,17 +20,21 @@ img {
   flex-direction: column;
 }
 
-.container__title>h5 {
+.container__title> a>h5 {
   font-size: .7rem;
   font-weight: 600;
 }
 
-.container__title>h3 {
+a{
+  text-decoration: none;
+}
+
+.container__title> a>h3 {
   font-size: 2rem;
   color: white;
 }
 
-.container__title>p {
+.container__title> a>p {
   margin-top: .5rem;
   font-size: .8rem;
   color: #afaeae8f;

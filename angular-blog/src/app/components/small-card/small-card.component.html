@@ -1,19 +1,22 @@
 <div class="container__body">
   <div class="container__main">
     <div class="container__small-img">
-      <img src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+      <a [routerLink]="['content', Id]"><img src="{{photoCover}}" alt=""></a>
     </div>
 
     <div class="containeir__titles">
       <div class="container__date">
-        <p>Julho 01, 2023</p>
+        <a [routerLink]="['content', Id]">
+          <p>{{cardDate}}</p>
+        </a>
       </div>
 
       <div class="container__title-main">
-        <h2>O avanço da tecnologia em nossa vida e a expansão do Multiverso, será?</h2>
+        <a [routerLink]="['content', Id]">
+          <h2>{{cardTitle}}</h2>
+        </a>
       </div>
     </div>
   </div>
   <hr>
 </div>
-
